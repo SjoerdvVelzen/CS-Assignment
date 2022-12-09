@@ -405,7 +405,7 @@ def calcAvg(matrix):
             avgval += matrix[j][i]
         average[0][i] = avgval/(shape[0]-1)
 
-numofbootstrap = 1
+numofbootstrap = 5
 distanceThresholdArray = list(np.arange(0.05, 1, 0.1)) #all values from 0.4 to 0.8 with 0.05 stepsize
 startTimeTotal = time.time()
 numOfRows = [600, 300, 200, 150, 125, 100, 75, 60, 50, 40, 30, 25, 20, 15, 12, 10, 8, 6, 5, 4, 3, 2, 1]
